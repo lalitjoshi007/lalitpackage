@@ -5,7 +5,7 @@
 AIML<-function(x){
   par(mfrow=c(1,2))
   hist(x,col=rainbow(30))
-  boxplot(x,col="black")
+  boxplot(x,col="red")
   par(mfrow=c(1,1))
   data.frame(min=min(x),
   median=median(x),
